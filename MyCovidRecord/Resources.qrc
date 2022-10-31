@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>IconsAndImages/familyImage.png</file>
+        <file>IconsAndImages/img1.png</file>
+        <file>IconsAndImages/MOHLOgo.svg</file>
+        <file>IconsAndImages/MOHLogoBottom.svg</file>
+        <file>IconsAndImages/NZGovernmentLogo.svg</file>
+        <file>IconsAndImages/Resources.qrc</file>
+    </qresource>
+</RCC>
