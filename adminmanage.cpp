@@ -23,10 +23,17 @@ void adminmanage::on_userinformation_view_clicked()
 {
 
 
-   ui->stackedWidget->setCurrentIndex(4);
+   ui->stackedWidget->setCurrentIndex(8);
 
 
 }
 
 
+
+
+
+void adminmanage::on_userdocuments_view_clicked()
+{
+       ui->stackedWidget->setCurrentIndex(6);
+}
 

@@ -23,6 +23,10 @@ private slots:
 
 
 
+
+
+    void on_userdocuments_view_clicked();
+
 private:
     Ui::adminmanage *ui;
 };
