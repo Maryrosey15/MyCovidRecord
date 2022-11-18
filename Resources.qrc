@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>IconsAndImages/familyImage.png</file>
+        <file>IconsAndImages/img1.png</file>
+        <file>IconsAndImages/MOHLOgo.svg</file>
+        <file>IconsAndImages/MOHLogoBottom.svg</file>
+        <file>IconsAndImages/NZGovernmentLogo.svg</file>
+        <file>IconsAndImages/Resources.qrc</file>
+        <file>IconsAndImages/attachsquare.png</file>
+        <file>IconsAndImages/eye.png</file>
+        <file>IconsAndImages/flag.png</file>
+        <file>IconsAndImages/Home.png</file>
+        <file>IconsAndImages/Link.png</file>
+        <file>IconsAndImages/MOHLOgo2.png</file>
+        <file>IconsAndImages/NZGovernmentLogo2.png</file>
+        <file>IconsAndImages/profilecircle.png</file>
+        <file>IconsAndImages/Rectangle.png</file>
+        <file>IconsAndImages/User_View.png</file>
+        <file>IconsAndImages/user.png</file>
+        <file>IconsAndImages/User_Files.png</file>
+    </qresource>
+</RCC>
