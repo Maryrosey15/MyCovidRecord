@@ -1,0 +1,17 @@
+D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/CMakeFiles/apk.dir
+D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/CMakeFiles/aab.dir
+D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/CMakeFiles/MyCovidRecord.dir
+D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/CMakeFiles/apk_all.dir
+D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/CMakeFiles/qt_internal_plugins.dir
+D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/CMakeFiles/MyCovidRecord_prepare_apk_dir.dir
+D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/CMakeFiles/MyCovidRecord_make_apk.dir
+D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/CMakeFiles/MyCovidRecord_make_aab.dir
+D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/CMakeFiles/_qt_internal_apk_dependencies.dir
+D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/CMakeFiles/edit_cache.dir
+D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/CMakeFiles/rebuild_cache.dir
+D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/CMakeFiles/list_install_components.dir
+D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/CMakeFiles/install.dir
+D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/CMakeFiles/install/local.dir
+D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/CMakeFiles/install/strip.dir
+D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/CMakeFiles/MyCovidRecord_autogen_timestamp_deps.dir
+D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/CMakeFiles/MyCovidRecord_autogen.dir

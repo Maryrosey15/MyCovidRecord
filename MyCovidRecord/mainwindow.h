@@ -18,6 +18,12 @@ public:
 private slots:
     void on_loginButton_clicked();
 
+    void on_saveButton_clicked();
+
+    void on_uploadButton_clicked();
+
+    void on_generateButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

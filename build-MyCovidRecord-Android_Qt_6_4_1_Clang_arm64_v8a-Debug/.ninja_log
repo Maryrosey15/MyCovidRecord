@@ -1,0 +1,16 @@
+# ninja log v5
+3	1340	6902284939643410	MyCovidRecord_autogen/timestamp	9773ebb8c99c7ae3
+3	1340	6902284939643410	MyCovidRecord_autogen/mocs_compilation.cpp	9773ebb8c99c7ae3
+3	1340	6902284939643410	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/MyCovidRecord_autogen/timestamp	9773ebb8c99c7ae3
+3	1340	6902284939643410	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/MyCovidRecord_autogen/mocs_compilation.cpp	9773ebb8c99c7ae3
+1341	1586	6902284946211419	MyCovidRecord_autogen/EWIEGA46WW/qrc_Resources.cpp	839031137ca6f017
+1341	1586	6902284946211419	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/MyCovidRecord_autogen/EWIEGA46WW/qrc_Resources.cpp	839031137ca6f017
+1595	3823	6902284968408039	CMakeFiles/MyCovidRecord.dir/MyCovidRecord_autogen/mocs_compilation.cpp.o	262417ed8622942e
+1610	4055	6902284970766543	CMakeFiles/MyCovidRecord.dir/main.cpp.o	3112eacdf07e249d
+1619	4213	6902284972347422	CMakeFiles/MyCovidRecord.dir/MyCovidRecord_autogen/EWIEGA46WW/qrc_Resources.cpp.o	ee4aa1c901d9e95b
+1603	4922	6902284979320831	CMakeFiles/MyCovidRecord.dir/mainwindow.cpp.o	4a846815b5961b32
+4923	5156	6902284981678095	libMyCovidRecord_arm64-v8a.so	1458bd885ef073dc
+5157	5241	0	CMakeFiles/MyCovidRecord_prepare_apk_dir	ff97618f474d4f87
+5157	5241	0	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/CMakeFiles/MyCovidRecord_prepare_apk_dir	ff97618f474d4f87
+31	122	0	CMakeFiles/MyCovidRecord_prepare_apk_dir	ff97618f474d4f87
+31	122	0	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug/CMakeFiles/MyCovidRecord_prepare_apk_dir	ff97618f474d4f87

@@ -1,60 +1,67 @@
 # ninja log v5
-4	2139	6896476175415328	MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
-4	2139	6896476175415328	MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
-4	2139	6896476175415328	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
-4	2139	6896476175415328	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
-2141	2539	6896476184153259	MyCovidRecord_autogen/EWIEGA46WW/qrc_Resources.cpp	6c33bd6e64db6a50
-2141	2539	6896476184153259	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/EWIEGA46WW/qrc_Resources.cpp	6c33bd6e64db6a50
-2559	6121	6896476220050723	CMakeFiles/MyCovidRecord.dir/MyCovidRecord_autogen/EWIEGA46WW/qrc_Resources.cpp.obj	403b1b7cabfd025b
-2541	6133	6896476220171137	CMakeFiles/MyCovidRecord.dir/MyCovidRecord_autogen/mocs_compilation.cpp.obj	b7a6d17b01b35362
-2568	6151	6896476220340474	CMakeFiles/MyCovidRecord.dir/main.cpp.obj	47a38133f5f6470a
-2550	6955	6896476228355984	CMakeFiles/MyCovidRecord.dir/mainwindow.cpp.obj	32141080c2ec013a
-6957	7960	6896476238339431	MyCovidRecord.exe	6e11392ea376d7ef
-12	670	6896480668068573	MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
-12	670	6896480668068573	MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
-12	670	6896480668068573	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
-12	670	6896480668068573	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
-704	4246	6896480703816442	CMakeFiles/MyCovidRecord.dir/mainwindow.cpp.obj	32141080c2ec013a
-4247	4685	6896480708131351	MyCovidRecord.exe	6e11392ea376d7ef
-25	737	6896497580326654	MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
-25	737	6896497580326654	MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
-25	737	6896497580326654	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
-25	737	6896497580326654	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
-774	4292	6896497615841229	CMakeFiles/MyCovidRecord.dir/mainwindow.cpp.obj	32141080c2ec013a
-4293	4752	6896497620355793	MyCovidRecord.exe	6e11392ea376d7ef
-16	403	6896528599884164	MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
-16	403	6896528599884164	MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
-16	403	6896528599884164	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
-16	403	6896528599884164	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
-421	2641	6896528622259782	CMakeFiles/MyCovidRecord.dir/mainwindow.cpp.obj	32141080c2ec013a
-2641	2903	6896528624818142	MyCovidRecord.exe	6e11392ea376d7ef
-21	479	6896536552605501	MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
-21	479	6896536552605501	MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
-21	479	6896536552605501	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
-21	479	6896536552605501	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
-495	2742	6896536575235461	CMakeFiles/MyCovidRecord.dir/mainwindow.cpp.obj	32141080c2ec013a
-2742	3021	6896536577952459	MyCovidRecord.exe	6e11392ea376d7ef
-14	394	6896537895828331	MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
-14	394	6896537895828331	MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
-14	394	6896537895828331	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
-14	394	6896537895828331	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
-412	2679	6896537918661628	CMakeFiles/MyCovidRecord.dir/mainwindow.cpp.obj	32141080c2ec013a
-2680	2994	6896537921767522	MyCovidRecord.exe	6e11392ea376d7ef
-26	605	6896538891887161	MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
-26	605	6896538891887161	MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
-26	605	6896538891887161	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
-26	605	6896538891887161	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
-624	2850	6896538914327404	CMakeFiles/MyCovidRecord.dir/mainwindow.cpp.obj	32141080c2ec013a
-2851	3106	6896538916802608	MyCovidRecord.exe	6e11392ea376d7ef
-26	619	6896539295820992	MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
-26	619	6896539295820992	MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
-26	619	6896539295820992	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
-26	619	6896539295820992	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
-636	2877	6896539318392309	CMakeFiles/MyCovidRecord.dir/mainwindow.cpp.obj	32141080c2ec013a
-2878	3126	6896539320842204	MyCovidRecord.exe	6e11392ea376d7ef
-12	422	6896539598777740	MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
-12	422	6896539598777740	MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
-12	422	6896539598777740	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
-12	422	6896539598777740	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
-439	2682	6896539621355347	CMakeFiles/MyCovidRecord.dir/mainwindow.cpp.obj	32141080c2ec013a
-2683	2947	6896539623963223	MyCovidRecord.exe	6e11392ea376d7ef
+2173	5959	6897818007585453	CMakeFiles/MyCovidRecord.dir/MyCovidRecord_autogen/EWIEGA46WW/qrc_Resources.cpp.obj	403b1b7cabfd025b
+16	406	6897848781963062	MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
+1902	2163	6897817969490628	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/EWIEGA46WW/qrc_Resources.cpp	6c33bd6e64db6a50
+16	406	6897848781963062	MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
+16	406	6897848781963062	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
+1902	2163	6897817969490628	MyCovidRecord_autogen/EWIEGA46WW/qrc_Resources.cpp	6c33bd6e64db6a50
+16	406	6897848781963062	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
+2164	5984	6897818007814955	CMakeFiles/MyCovidRecord.dir/MyCovidRecord_autogen/mocs_compilation.cpp.obj	b7a6d17b01b35362
+2195	5987	6897818007854973	CMakeFiles/MyCovidRecord.dir/main.cpp.obj	47a38133f5f6470a
+424	2795	6897848805865525	CMakeFiles/MyCovidRecord.dir/mainwindow.cpp.obj	32141080c2ec013a
+2796	3064	6897848808502108	MyCovidRecord.exe	6e11392ea376d7ef
+21	411	6897849009236844	MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
+21	411	6897849009236844	MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
+21	411	6897849009236844	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
+21	411	6897849009236844	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
+430	2818	6897849033297889	CMakeFiles/MyCovidRecord.dir/mainwindow.cpp.obj	32141080c2ec013a
+2818	3090	6897849035972100	MyCovidRecord.exe	6e11392ea376d7ef
+11	393	6897849220461953	MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
+11	393	6897849220461953	MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
+11	393	6897849220461953	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
+11	393	6897849220461953	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
+412	2802	6897849244548457	CMakeFiles/MyCovidRecord.dir/mainwindow.cpp.obj	32141080c2ec013a
+2803	3074	6897849247216422	MyCovidRecord.exe	6e11392ea376d7ef
+21	1183	6902158768166699	MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
+21	1183	6902158768166699	MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
+21	1183	6902158768166699	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
+21	1183	6902158768166699	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
+1184	3314	6902158792026499	CMakeFiles/MyCovidRecord.dir/MyCovidRecord_autogen/mocs_compilation.cpp.obj	b7a6d17b01b35362
+1204	3318	6902158792076169	CMakeFiles/MyCovidRecord.dir/main.cpp.obj	47a38133f5f6470a
+1199	3725	6902158796122057	CMakeFiles/MyCovidRecord.dir/mainwindow.cpp.obj	32141080c2ec013a
+16	1619	6902159318213205	CMakeFiles/MyCovidRecord.dir/MyCovidRecord_autogen/mocs_compilation.cpp.obj	b7a6d17b01b35362
+1620	1890	6902159320833491	MyCovidRecord.exe	6e11392ea376d7ef
+11	519	6902161746791465	MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
+11	519	6902161746791465	MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
+11	519	6902161746791465	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
+11	519	6902161746791465	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
+536	2760	6902161769199386	CMakeFiles/MyCovidRecord.dir/mainwindow.cpp.obj	32141080c2ec013a
+2760	3028	6902161771819112	MyCovidRecord.exe	6e11392ea376d7ef
+48	1066	6902164248627987	MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
+48	1066	6902164248627987	MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
+48	1066	6902164248627987	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
+48	1066	6902164248627987	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
+1067	2808	6902164268554600	CMakeFiles/MyCovidRecord.dir/MyCovidRecord_autogen/mocs_compilation.cpp.obj	b7a6d17b01b35362
+1075	2845	6902164268934939	CMakeFiles/MyCovidRecord.dir/main.cpp.obj	47a38133f5f6470a
+1071	3506	6902164275532760	CMakeFiles/MyCovidRecord.dir/mainwindow.cpp.obj	32141080c2ec013a
+3506	3780	6902164278205453	MyCovidRecord.exe	6e11392ea376d7ef
+12	457	6902183481329652	MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
+12	457	6902183481329652	MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
+12	457	6902183481329652	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
+12	457	6902183481329652	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
+476	2985	6902183506609458	CMakeFiles/MyCovidRecord.dir/mainwindow.cpp.obj	32141080c2ec013a
+2986	3282	6902183509529146	MyCovidRecord.exe	6e11392ea376d7ef
+12	427	6902184031327835	MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
+12	427	6902184031327835	MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
+12	427	6902184031327835	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
+12	427	6902184031327835	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
+445	2766	6902184054705134	CMakeFiles/MyCovidRecord.dir/mainwindow.cpp.obj	32141080c2ec013a
+2766	3044	6902184057450253	MyCovidRecord.exe	6e11392ea376d7ef
+12	1078	6902189400160343	MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
+12	1078	6902189400160343	MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
+12	1078	6902189400160343	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/timestamp	5efc2f1573b2ed49
+12	1078	6902189400160343	D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/MyCovidRecord_autogen/mocs_compilation.cpp	5efc2f1573b2ed49
+1083	3067	6902189422771363	CMakeFiles/MyCovidRecord.dir/main.cpp.obj	47a38133f5f6470a
+1078	3069	6902189422791022	CMakeFiles/MyCovidRecord.dir/MyCovidRecord_autogen/mocs_compilation.cpp.obj	b7a6d17b01b35362
+1089	3820	6902189430293914	CMakeFiles/MyCovidRecord.dir/mainwindow.cpp.obj	32141080c2ec013a
+3820	4089	6902189432933782	MyCovidRecord.exe	6e11392ea376d7ef

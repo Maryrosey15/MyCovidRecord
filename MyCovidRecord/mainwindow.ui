@@ -2692,7 +2692,7 @@ color: rgb(0, 46, 110);</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="loginButton2_22">
+      <widget class="QPushButton" name="saveButton">
        <property name="geometry">
         <rect>
          <x>140</x>
@@ -2781,12 +2781,12 @@ color: #002E6E;</string>
 border-radius: 15%; 
 border: 1px solid #002e6e;</string>
       </property>
-      <widget class="QLabel" name="name_47">
+      <widget class="QLabel" name="label_2">
        <property name="geometry">
         <rect>
-         <x>100</x>
+         <x>140</x>
          <y>10</y>
-         <width>181</width>
+         <width>91</width>
          <height>21</height>
         </rect>
        </property>
@@ -2794,7 +2794,7 @@ border: 1px solid #002e6e;</string>
         <string notr="true">border: none;</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700; color:#002e6e;&quot;&gt;QR code generator&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700; color:#002e6e;&quot;&gt;QR code&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLabel" name="name_48">
@@ -2825,7 +2825,7 @@ border: 1px solid #002e6e;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="loginButton2_19">
+      <widget class="QPushButton" name="generateButton">
        <property name="geometry">
         <rect>
          <x>210</x>
@@ -2850,7 +2850,7 @@ color: rgb(255, 255, 255);</string>
         <string>Generate</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="loginButton2_20">
+      <widget class="QPushButton" name="uploadButton">
        <property name="geometry">
         <rect>
          <x>210</x>
@@ -2872,7 +2872,7 @@ color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
-        <string>Save</string>
+        <string>Upload</string>
        </property>
       </widget>
      </widget>

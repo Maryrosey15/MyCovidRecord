@@ -197,15 +197,15 @@ public:
     QLabel *name_52;
     QLabel *name_53;
     QLabel *name_54;
-    QPushButton *loginButton2_22;
+    QPushButton *saveButton;
     QLabel *topLogoLable_18;
     QLabel *profileIcon_4;
     QLabel *myCovidRecordLabel_20;
     QWidget *vaccineRecords_10;
     QLabel *name_47;
     QLabel *name_48;
-    QPushButton *loginButton2_19;
-    QPushButton *loginButton2_20;
+    QPushButton *generateButton;
+    QPushButton *uploadButton;
     QTextEdit *textEdit_3;
     QLabel *name_7;
     QTextEdit *textEdit_4;
@@ -1075,12 +1075,12 @@ public:
 "color: rgb(0, 46, 110);"));
         name_54->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop);
         name_54->setWordWrap(true);
-        loginButton2_22 = new QPushButton(vaccineRecords_9);
-        loginButton2_22->setObjectName("loginButton2_22");
-        loginButton2_22->setGeometry(QRect(140, 270, 81, 21));
-        loginButton2_22->setFont(font);
-        loginButton2_22->setAutoFillBackground(false);
-        loginButton2_22->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 46, 110);\n"
+        saveButton = new QPushButton(vaccineRecords_9);
+        saveButton->setObjectName("saveButton");
+        saveButton->setGeometry(QRect(140, 270, 81, 21));
+        saveButton->setFont(font);
+        saveButton->setAutoFillBackground(false);
+        saveButton->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 46, 110);\n"
 "color: rgb(255, 255, 255);"));
         topLogoLable_18 = new QLabel(adminAccount);
         topLogoLable_18->setObjectName("topLogoLable_18");
@@ -1103,7 +1103,7 @@ public:
 "border: 1px solid #002e6e;"));
         name_47 = new QLabel(vaccineRecords_10);
         name_47->setObjectName("name_47");
-        name_47->setGeometry(QRect(100, 10, 181, 21));
+        name_47->setGeometry(QRect(140, 10, 91, 21));
         name_47->setStyleSheet(QString::fromUtf8("border: none;"));
         name_48 = new QLabel(vaccineRecords_10);
         name_48->setObjectName("name_48");
@@ -1113,19 +1113,19 @@ public:
         name_48->setMidLineWidth(0);
         name_48->setAlignment(Qt::AlignHCenter|Qt::AlignTop);
         name_48->setWordWrap(true);
-        loginButton2_19 = new QPushButton(vaccineRecords_10);
-        loginButton2_19->setObjectName("loginButton2_19");
-        loginButton2_19->setGeometry(QRect(210, 80, 111, 29));
-        loginButton2_19->setFont(font);
-        loginButton2_19->setAutoFillBackground(false);
-        loginButton2_19->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 46, 110);\n"
+        generateButton = new QPushButton(vaccineRecords_10);
+        generateButton->setObjectName("generateButton");
+        generateButton->setGeometry(QRect(210, 80, 111, 29));
+        generateButton->setFont(font);
+        generateButton->setAutoFillBackground(false);
+        generateButton->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 46, 110);\n"
 "color: rgb(255, 255, 255);"));
-        loginButton2_20 = new QPushButton(vaccineRecords_10);
-        loginButton2_20->setObjectName("loginButton2_20");
-        loginButton2_20->setGeometry(QRect(210, 140, 111, 29));
-        loginButton2_20->setFont(font);
-        loginButton2_20->setAutoFillBackground(false);
-        loginButton2_20->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 46, 110);\n"
+        uploadButton = new QPushButton(vaccineRecords_10);
+        uploadButton->setObjectName("uploadButton");
+        uploadButton->setGeometry(QRect(210, 140, 111, 29));
+        uploadButton->setFont(font);
+        uploadButton->setAutoFillBackground(false);
+        uploadButton->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 46, 110);\n"
 "color: rgb(255, 255, 255);"));
         textEdit_3 = new QTextEdit(adminAccount);
         textEdit_3->setObjectName("textEdit_3");
@@ -1310,14 +1310,14 @@ public:
         name_52->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p>Edit</p></body></html>", nullptr));
         name_53->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p>Edit</p></body></html>", nullptr));
         name_54->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p>Edit/Add</p></body></html>", nullptr));
-        loginButton2_22->setText(QCoreApplication::translate("MainWindow", "Save", nullptr));
+        saveButton->setText(QCoreApplication::translate("MainWindow", "Save", nullptr));
         topLogoLable_18->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><img src=\":/IconsAndImages/MOHLOgo.svg\"/></p></body></html>", nullptr));
         profileIcon_4->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><img src=\":/IconsAndImages/profilecircle.png\"/></p></body></html>", nullptr));
         myCovidRecordLabel_20->setText(QCoreApplication::translate("MainWindow", "My Covid Record", nullptr));
-        name_47->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#002e6e;\">QR code generator</span></p></body></html>", nullptr));
+        name_47->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#002e6e;\">QR code</span></p></body></html>", nullptr));
         name_48->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><img src=\":/IconsAndImages/Rectangle.png\"/></p></body></html>", nullptr));
-        loginButton2_19->setText(QCoreApplication::translate("MainWindow", "Generate", nullptr));
-        loginButton2_20->setText(QCoreApplication::translate("MainWindow", "Save", nullptr));
+        generateButton->setText(QCoreApplication::translate("MainWindow", "Generate", nullptr));
+        uploadButton->setText(QCoreApplication::translate("MainWindow", "Upload", nullptr));
         textEdit_3->setHtml(QCoreApplication::translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"

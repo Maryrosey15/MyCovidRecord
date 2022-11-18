@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-2725c2c37fe00ff5425b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MyCovidRecord",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MyCovidRecord::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MyCovidRecord-Debug-d10b2ae30f01538ccc71.json",
+					"name" : "MyCovidRecord",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MyCovidRecord_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MyCovidRecord_autogen-Debug-e01ea15ed6a6a71b01bd.json",
+					"name" : "MyCovidRecord_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MyCovidRecord_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MyCovidRecord_autogen_timestamp_deps-Debug-9648b97f79fbb611da2f.json",
+					"name" : "MyCovidRecord_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MyCovidRecord_make_aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MyCovidRecord_make_aab-Debug-2e5fadee3518c3cb1311.json",
+					"name" : "MyCovidRecord_make_aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MyCovidRecord_make_apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MyCovidRecord_make_apk-Debug-57eac819cca8afaaf0f7.json",
+					"name" : "MyCovidRecord_make_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MyCovidRecord_prepare_apk_dir::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MyCovidRecord_prepare_apk_dir-Debug-2e402b22fbdf42d00458.json",
+					"name" : "MyCovidRecord_prepare_apk_dir",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_qt_internal_apk_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_qt_internal_apk_dependencies-Debug-117efda2e1ce10b04b2a.json",
+					"name" : "_qt_internal_apk_dependencies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aab-Debug-8c617fb0e4228c3c2b8d.json",
+					"name" : "aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk-Debug-23244ac19d9cd02fc6d7.json",
+					"name" : "apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk_all-Debug-0bfa83584a5a1fdee4cd.json",
+					"name" : "apk_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_internal_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_internal_plugins-Debug-6f939dbdbf883f9979a3.json",
+					"name" : "qt_internal_plugins",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/build-MyCovidRecord-Android_Qt_6_4_1_Clang_arm64_v8a-Debug",
+		"source" : "D:/Yoobee College/CS106 Integrated Studio II/MyCovidRecord_Project/MyCovidRecord/MyCovidRecord"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
