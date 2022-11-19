@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "C:/Qt/Tools/mingw1120_64/bin/g++.exe")
+set(CMAKE_CXX_COMPILER "E:/Applications/QT/Tools/mingw1120_64/bin/g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "11.2.0")
@@ -22,11 +22,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "C:/Qt/Tools/mingw1120_64/bin/ar.exe")
-set(CMAKE_CXX_COMPILER_AR "C:/Qt/Tools/mingw1120_64/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "C:/Qt/Tools/mingw1120_64/bin/ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "C:/Qt/Tools/mingw1120_64/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "C:/Qt/Tools/mingw1120_64/bin/ld.exe")
+set(CMAKE_AR "E:/Applications/QT/Tools/mingw1120_64/bin/ar.exe")
+set(CMAKE_CXX_COMPILER_AR "E:/Applications/QT/Tools/mingw1120_64/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "E:/Applications/QT/Tools/mingw1120_64/bin/ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "E:/Applications/QT/Tools/mingw1120_64/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "E:/Applications/QT/Tools/mingw1120_64/bin/ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
@@ -77,7 +77,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++;C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32;C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward;C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include;C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "E:/Applications/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++;E:/Applications/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32;E:/Applications/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward;E:/Applications/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include;E:/Applications/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;E:/Applications/QT/Tools/mingw1120_64/x86_64-w64-mingw32/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex;kernel32")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0;C:/Qt/Tools/mingw1120_64/lib/gcc;C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/lib;C:/Qt/Tools/mingw1120_64/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "E:/Applications/QT/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0;E:/Applications/QT/Tools/mingw1120_64/lib/gcc;E:/Applications/QT/Tools/mingw1120_64/x86_64-w64-mingw32/lib;E:/Applications/QT/Tools/mingw1120_64/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

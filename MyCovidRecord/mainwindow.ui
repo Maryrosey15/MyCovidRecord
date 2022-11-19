@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>434</width>
+    <width>437</width>
     <height>932</height>
    </rect>
   </property>
@@ -27,7 +27,7 @@
      <string notr="true">background-color: rgb(85, 163, 235);</string>
     </property>
     <property name="currentIndex">
-     <number>8</number>
+     <number>4</number>
     </property>
     <widget class="QWidget" name="homepage">
      <property name="styleSheet">
@@ -415,7 +415,7 @@ color: rgb(85, 163, 235);</string>
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:400; font-style:italic;&quot;&gt;Forgot Password?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="loginButton2">
+      <widget class="QPushButton" name="loginToAccount">
        <property name="geometry">
         <rect>
          <x>130</x>
@@ -578,7 +578,7 @@ color: #002E6E;</string>
        <property name="geometry">
         <rect>
          <x>50</x>
-         <y>33</y>
+         <y>10</y>
          <width>231</width>
          <height>110</height>
         </rect>
@@ -690,7 +690,7 @@ color: rgb(85, 163, 235);</string>
        <property name="geometry">
         <rect>
          <x>50</x>
-         <y>230</y>
+         <y>250</y>
          <width>231</width>
          <height>110</height>
         </rect>
@@ -902,7 +902,7 @@ color: #002E6E;</string>
        <string>My Covid Record</string>
       </property>
      </widget>
-     <widget class="QGroupBox" name="userProfile">
+     <widget class="QGroupBox" name="userProfile_2">
       <property name="geometry">
        <rect>
         <x>0</x>
@@ -917,7 +917,7 @@ color: #002E6E;</string>
       <property name="title">
        <string/>
       </property>
-      <widget class="QLabel" name="profileIcon">
+      <widget class="QLabel" name="profileIcon_2">
        <property name="geometry">
         <rect>
          <x>50</x>
@@ -930,7 +930,7 @@ color: #002E6E;</string>
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/IconsAndImages/profilecircle.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
-      <widget class="QLabel" name="name">
+      <widget class="QLabel" name="name_2">
        <property name="geometry">
         <rect>
          <x>110</x>
@@ -943,20 +943,7 @@ color: #002E6E;</string>
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700; color:#002e6e;&quot;&gt;Mary Rose Garcia&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
-      <widget class="QLabel" name="name_2">
-       <property name="geometry">
-        <rect>
-         <x>110</x>
-         <y>30</y>
-         <width>171</width>
-         <height>21</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; color:#002e6e;&quot;&gt;View NHI and profile&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="loginButton2_4">
+      <widget class="QPushButton" name="logout">
        <property name="geometry">
         <rect>
          <x>280</x>
@@ -979,6 +966,23 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
         <string>Log Out</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="showProfile">
+       <property name="geometry">
+        <rect>
+         <x>105</x>
+         <y>30</y>
+         <width>131</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #002e6e;
+font-size:10pt;</string>
+       </property>
+       <property name="text">
+        <string>View NHI and profile</string>
        </property>
       </widget>
      </widget>
@@ -1029,7 +1033,7 @@ color: rgb(255, 255, 255);</string>
          <x>50</x>
          <y>60</y>
          <width>321</width>
-         <height>151</height>
+         <height>161</height>
         </rect>
        </property>
        <property name="autoFillBackground">
@@ -1056,13 +1060,13 @@ border: 1px solid #002e6e;</string>
          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700; color:#002e6e;&quot;&gt;Vaccine Record&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
-       <widget class="QLabel" name="name_12">
+       <widget class="QLabel" name="vaccineRecord">
         <property name="geometry">
          <rect>
           <x>20</x>
           <y>40</y>
           <width>161</width>
-          <height>21</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -1070,6 +1074,9 @@ border: 1px solid #002e6e;</string>
         </property>
         <property name="text">
          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; color:#002e6e;&quot;&gt;Booster 1:   18/03/2022&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
         </property>
        </widget>
        <widget class="QLabel" name="name_13">
@@ -1088,11 +1095,11 @@ border: 1px solid #002e6e;</string>
          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:10pt; color:#556deb;&quot;&gt;View All&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
-       <widget class="QLabel" name="name_14">
+       <widget class="QLabel" name="testRecord">
         <property name="geometry">
          <rect>
           <x>20</x>
-          <y>100</y>
+          <y>120</y>
           <width>161</width>
           <height>21</height>
          </rect>
@@ -1108,7 +1115,7 @@ border: 1px solid #002e6e;</string>
         <property name="geometry">
          <rect>
           <x>230</x>
-          <y>90</y>
+          <y>110</y>
           <width>71</width>
           <height>21</height>
          </rect>
@@ -1124,7 +1131,7 @@ border: 1px solid #002e6e;</string>
         <property name="geometry">
          <rect>
           <x>20</x>
-          <y>80</y>
+          <y>100</y>
           <width>161</width>
           <height>21</height>
          </rect>
@@ -1138,7 +1145,7 @@ border: 1px solid #002e6e;</string>
        </widget>
       </widget>
      </widget>
-     <widget class="QGroupBox" name="reportRAT">
+     <widget class="QGroupBox" name="reportRAT_3">
       <property name="geometry">
        <rect>
         <x>0</x>
@@ -1417,7 +1424,7 @@ color: #002E6E;</string>
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700; color:#002e6e;&quot;&gt;Mary Rose Garcia&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="loginButton2_6">
+      <widget class="QPushButton" name="logout2">
        <property name="geometry">
         <rect>
          <x>280</x>
@@ -1491,7 +1498,7 @@ border: 1px solid #002e6e;</string>
          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:700; color:#002e6e;&quot;&gt;Personal Information&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
-       <widget class="QLabel" name="name_28">
+       <widget class="QLabel" name="userPersonalInfo">
         <property name="geometry">
          <rect>
           <x>20</x>
@@ -1529,7 +1536,7 @@ border: 1px solid #002e6e;</string>
          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:700; color:#002e6e;&quot;&gt;Vaccine Record&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
-       <widget class="QLabel" name="name_32">
+       <widget class="QLabel" name="vaccineRecord_2">
         <property name="geometry">
          <rect>
           <x>20</x>
@@ -2018,7 +2025,7 @@ color: rgb(0, 46, 110);
        <string>Report Issues</string>
       </property>
      </widget>
-     <widget class="QTextEdit" name="textEdit">
+     <widget class="QTextEdit" name="issueTextBox">
       <property name="geometry">
        <rect>
         <x>30</x>
@@ -2065,7 +2072,7 @@ color: rgb(0, 46, 110);
        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/IconsAndImages/attachsquare.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="loginButton2_7">
+     <widget class="QPushButton" name="submitIssue">
       <property name="geometry">
        <rect>
         <x>150</x>
@@ -2084,7 +2091,8 @@ color: rgb(0, 46, 110);
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: rgb(85, 163, 235);
-color: rgb(255, 255, 255);</string>
+color: rgb(0, 46, 110);
+</string>
       </property>
       <property name="text">
        <string>Submit</string>
@@ -2692,7 +2700,7 @@ color: rgb(0, 46, 110);</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="saveButton">
+      <widget class="QPushButton" name="loginButton2_22">
        <property name="geometry">
         <rect>
          <x>140</x>
@@ -2781,12 +2789,12 @@ color: #002E6E;</string>
 border-radius: 15%; 
 border: 1px solid #002e6e;</string>
       </property>
-      <widget class="QLabel" name="label_2">
+      <widget class="QLabel" name="name_47">
        <property name="geometry">
         <rect>
-         <x>140</x>
+         <x>100</x>
          <y>10</y>
-         <width>91</width>
+         <width>181</width>
          <height>21</height>
         </rect>
        </property>
@@ -2794,7 +2802,7 @@ border: 1px solid #002e6e;</string>
         <string notr="true">border: none;</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700; color:#002e6e;&quot;&gt;QR code&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700; color:#002e6e;&quot;&gt;QR code generator&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLabel" name="name_48">
@@ -2825,7 +2833,7 @@ border: 1px solid #002e6e;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="generateButton">
+      <widget class="QPushButton" name="loginButton2_19">
        <property name="geometry">
         <rect>
          <x>210</x>
@@ -2850,7 +2858,7 @@ color: rgb(255, 255, 255);</string>
         <string>Generate</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="uploadButton">
+      <widget class="QPushButton" name="loginButton2_20">
        <property name="geometry">
         <rect>
          <x>210</x>
@@ -2872,7 +2880,7 @@ color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
-        <string>Upload</string>
+        <string>Save</string>
        </property>
       </widget>
      </widget>
@@ -2989,8 +2997,8 @@ color: rgb(255, 255, 255);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>434</width>
-     <height>26</height>
+     <width>437</width>
+     <height>22</height>
     </rect>
    </property>
   </widget>
@@ -2998,5 +3006,25 @@ color: rgb(255, 255, 255);</string>
  <resources>
   <include location="Resources.qrc"/>
  </resources>
- <connections/>
+ <connections>
+  <connection>
+   <sender>showProfile</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>168</x>
+     <y>182</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>418</x>
+     <y>205</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>switchToProfile()</slot>
+ </slots>
 </ui>

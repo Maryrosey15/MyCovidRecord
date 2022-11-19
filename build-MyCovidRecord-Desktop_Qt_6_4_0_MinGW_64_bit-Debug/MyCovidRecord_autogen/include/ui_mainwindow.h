@@ -52,7 +52,7 @@ public:
     QLabel *eyeIconLabel;
     QLabel *showLabel;
     QLabel *forgotPasswordLabel;
-    QPushButton *loginButton2;
+    QPushButton *loginToAccount;
     QLabel *dontHaveAccountLabel;
     QLabel *signUpHereLable;
     QLabel *myCovidRecordLabel_3;
@@ -92,22 +92,22 @@ public:
     QWidget *userHomePage;
     QLabel *topLogoLable_22;
     QLabel *myCovidRecordLabel_22;
-    QGroupBox *userProfile;
-    QLabel *profileIcon;
-    QLabel *name;
+    QGroupBox *userProfile_2;
+    QLabel *profileIcon_2;
     QLabel *name_2;
-    QPushButton *loginButton2_4;
+    QPushButton *logout;
+    QPushButton *showProfile;
     QGroupBox *records;
     QLabel *name_9;
     QLabel *name_10;
     QWidget *vaccineRecords;
     QLabel *name_11;
-    QLabel *name_12;
+    QLabel *vaccineRecord;
     QLabel *name_13;
-    QLabel *name_14;
+    QLabel *testRecord;
     QLabel *name_15;
     QLabel *name_16;
-    QGroupBox *reportRAT;
+    QGroupBox *reportRAT_3;
     QWidget *vaccineRecords_3;
     QLabel *name_27;
     QLabel *name_28;
@@ -120,16 +120,16 @@ public:
     QWidget *userAccount;
     QLabel *topLogoLable_23;
     QLabel *myCovidRecordLabel_23;
-    QGroupBox *userProfile1;
-    QLabel *profileIcon1;
-    QLabel *name1;
-    QPushButton *loginButton2_6;
-    QGroupBox *reportRAT1;
+    QGroupBox *userProfile;
+    QLabel *profileIcon;
+    QLabel *name;
+    QPushButton *logout2;
+    QGroupBox *reportRAT;
     QWidget *vaccineRecords_31;
     QLabel *name_271;
-    QLabel *name_281;
+    QLabel *userPersonalInfo;
     QLabel *name_31;
-    QLabel *name_32;
+    QLabel *vaccineRecord_2;
     QGroupBox *reportRAT_21;
     QWidget *vaccineRecords_41;
     QLabel *name_291;
@@ -159,10 +159,10 @@ public:
     QLabel *myCovidRecordLabel_8;
     QLabel *topLogoLabel_2;
     QLabel *textLabel_2;
-    QTextEdit *textEdit;
+    QTextEdit *issueTextBox;
     QLabel *textLabel_3;
     QLabel *label;
-    QPushButton *loginButton2_7;
+    QPushButton *submitIssue;
     QWidget *adminLoginPage;
     QGroupBox *groupBox_3;
     QTextEdit *emailAddTextEdit_4;
@@ -197,15 +197,15 @@ public:
     QLabel *name_52;
     QLabel *name_53;
     QLabel *name_54;
-    QPushButton *saveButton;
+    QPushButton *loginButton2_22;
     QLabel *topLogoLable_18;
     QLabel *profileIcon_4;
     QLabel *myCovidRecordLabel_20;
     QWidget *vaccineRecords_10;
     QLabel *name_47;
     QLabel *name_48;
-    QPushButton *generateButton;
-    QPushButton *uploadButton;
+    QPushButton *loginButton2_19;
+    QPushButton *loginButton2_20;
     QTextEdit *textEdit_3;
     QLabel *name_7;
     QTextEdit *textEdit_4;
@@ -217,7 +217,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(434, 932);
+        MainWindow->resize(437, 932);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         stackedWidget = new QStackedWidget(centralwidget);
@@ -347,12 +347,12 @@ public:
         forgotPasswordLabel->setGeometry(QRect(40, 200, 151, 21));
         forgotPasswordLabel->setStyleSheet(QString::fromUtf8("font: 700 16pt \"Fira Sans\";\n"
 "color: rgb(85, 163, 235);"));
-        loginButton2 = new QPushButton(groupBox);
-        loginButton2->setObjectName("loginButton2");
-        loginButton2->setGeometry(QRect(130, 250, 93, 29));
-        loginButton2->setFont(font);
-        loginButton2->setAutoFillBackground(false);
-        loginButton2->setStyleSheet(QString::fromUtf8("background-color: rgb(85, 163, 235);\n"
+        loginToAccount = new QPushButton(groupBox);
+        loginToAccount->setObjectName("loginToAccount");
+        loginToAccount->setGeometry(QRect(130, 250, 93, 29));
+        loginToAccount->setFont(font);
+        loginToAccount->setAutoFillBackground(false);
+        loginToAccount->setStyleSheet(QString::fromUtf8("background-color: rgb(85, 163, 235);\n"
 "color: rgb(255, 255, 255);"));
         dontHaveAccountLabel = new QLabel(groupBox);
         dontHaveAccountLabel->setObjectName("dontHaveAccountLabel");
@@ -395,7 +395,7 @@ public:
         groupBox1->setStyleSheet(QString::fromUtf8("border: none;"));
         verticalLayoutWidget = new QWidget(groupBox1);
         verticalLayoutWidget->setObjectName("verticalLayoutWidget");
-        verticalLayoutWidget->setGeometry(QRect(50, 33, 231, 110));
+        verticalLayoutWidget->setGeometry(QRect(50, 10, 231, 110));
         verticalLayout = new QVBoxLayout(verticalLayoutWidget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
@@ -463,7 +463,7 @@ public:
 
         verticalLayoutWidget_3 = new QWidget(groupBox1);
         verticalLayoutWidget_3->setObjectName("verticalLayoutWidget_3");
-        verticalLayoutWidget_3->setGeometry(QRect(50, 230, 231, 110));
+        verticalLayoutWidget_3->setGeometry(QRect(50, 250, 231, 110));
         verticalLayout_5 = new QVBoxLayout(verticalLayoutWidget_3);
         verticalLayout_5->setObjectName("verticalLayout_5");
         verticalLayout_5->setContentsMargins(0, 0, 0, 0);
@@ -560,26 +560,28 @@ public:
         myCovidRecordLabel_22->setGeometry(QRect(20, 50, 172, 24));
         myCovidRecordLabel_22->setStyleSheet(QString::fromUtf8("font: 700 16pt \"Fira Sans\";\n"
 "color: #002E6E;"));
-        userProfile = new QGroupBox(userHomePage);
-        userProfile->setObjectName("userProfile");
-        userProfile->setGeometry(QRect(0, 140, 431, 51));
-        userProfile->setStyleSheet(QString::fromUtf8("border: none;"));
-        profileIcon = new QLabel(userProfile);
-        profileIcon->setObjectName("profileIcon");
-        profileIcon->setGeometry(QRect(50, 0, 49, 51));
-        name = new QLabel(userProfile);
-        name->setObjectName("name");
-        name->setGeometry(QRect(110, 10, 171, 21));
-        name_2 = new QLabel(userProfile);
+        userProfile_2 = new QGroupBox(userHomePage);
+        userProfile_2->setObjectName("userProfile_2");
+        userProfile_2->setGeometry(QRect(0, 140, 431, 51));
+        userProfile_2->setStyleSheet(QString::fromUtf8("border: none;"));
+        profileIcon_2 = new QLabel(userProfile_2);
+        profileIcon_2->setObjectName("profileIcon_2");
+        profileIcon_2->setGeometry(QRect(50, 0, 49, 51));
+        name_2 = new QLabel(userProfile_2);
         name_2->setObjectName("name_2");
-        name_2->setGeometry(QRect(110, 30, 171, 21));
-        loginButton2_4 = new QPushButton(userProfile);
-        loginButton2_4->setObjectName("loginButton2_4");
-        loginButton2_4->setGeometry(QRect(280, 15, 111, 29));
-        loginButton2_4->setFont(font);
-        loginButton2_4->setAutoFillBackground(false);
-        loginButton2_4->setStyleSheet(QString::fromUtf8("background-color: rgb(85, 163, 235);\n"
+        name_2->setGeometry(QRect(110, 10, 171, 21));
+        logout = new QPushButton(userProfile_2);
+        logout->setObjectName("logout");
+        logout->setGeometry(QRect(280, 15, 111, 29));
+        logout->setFont(font);
+        logout->setAutoFillBackground(false);
+        logout->setStyleSheet(QString::fromUtf8("background-color: rgb(85, 163, 235);\n"
 "color: rgb(255, 255, 255);"));
+        showProfile = new QPushButton(userProfile_2);
+        showProfile->setObjectName("showProfile");
+        showProfile->setGeometry(QRect(105, 30, 131, 24));
+        showProfile->setStyleSheet(QString::fromUtf8("color: #002e6e;\n"
+"font-size:10pt;"));
         records = new QGroupBox(userHomePage);
         records->setObjectName("records");
         records->setGeometry(QRect(0, 230, 431, 221));
@@ -592,7 +594,7 @@ public:
         name_10->setGeometry(QRect(50, 30, 261, 21));
         vaccineRecords = new QWidget(records);
         vaccineRecords->setObjectName("vaccineRecords");
-        vaccineRecords->setGeometry(QRect(50, 60, 321, 151));
+        vaccineRecords->setGeometry(QRect(50, 60, 321, 161));
         vaccineRecords->setAutoFillBackground(false);
         vaccineRecords->setStyleSheet(QString::fromUtf8("background-color: white;\n"
 "border-radius: 15%; \n"
@@ -601,31 +603,32 @@ public:
         name_11->setObjectName("name_11");
         name_11->setGeometry(QRect(20, 20, 161, 21));
         name_11->setStyleSheet(QString::fromUtf8("border: none;"));
-        name_12 = new QLabel(vaccineRecords);
-        name_12->setObjectName("name_12");
-        name_12->setGeometry(QRect(20, 40, 161, 21));
-        name_12->setStyleSheet(QString::fromUtf8("border: none;"));
+        vaccineRecord = new QLabel(vaccineRecords);
+        vaccineRecord->setObjectName("vaccineRecord");
+        vaccineRecord->setGeometry(QRect(20, 40, 161, 41));
+        vaccineRecord->setStyleSheet(QString::fromUtf8("border: none;"));
+        vaccineRecord->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop);
         name_13 = new QLabel(vaccineRecords);
         name_13->setObjectName("name_13");
         name_13->setGeometry(QRect(230, 30, 71, 21));
         name_13->setStyleSheet(QString::fromUtf8("border: none;"));
-        name_14 = new QLabel(vaccineRecords);
-        name_14->setObjectName("name_14");
-        name_14->setGeometry(QRect(20, 100, 161, 21));
-        name_14->setStyleSheet(QString::fromUtf8("border: none;"));
+        testRecord = new QLabel(vaccineRecords);
+        testRecord->setObjectName("testRecord");
+        testRecord->setGeometry(QRect(20, 120, 161, 21));
+        testRecord->setStyleSheet(QString::fromUtf8("border: none;"));
         name_15 = new QLabel(vaccineRecords);
         name_15->setObjectName("name_15");
-        name_15->setGeometry(QRect(230, 90, 71, 21));
+        name_15->setGeometry(QRect(230, 110, 71, 21));
         name_15->setStyleSheet(QString::fromUtf8("border: none;"));
         name_16 = new QLabel(vaccineRecords);
         name_16->setObjectName("name_16");
-        name_16->setGeometry(QRect(20, 80, 161, 21));
+        name_16->setGeometry(QRect(20, 100, 161, 21));
         name_16->setStyleSheet(QString::fromUtf8("border: none;"));
-        reportRAT = new QGroupBox(userHomePage);
-        reportRAT->setObjectName("reportRAT");
-        reportRAT->setGeometry(QRect(0, 470, 431, 171));
-        reportRAT->setStyleSheet(QString::fromUtf8("border: none;"));
-        vaccineRecords_3 = new QWidget(reportRAT);
+        reportRAT_3 = new QGroupBox(userHomePage);
+        reportRAT_3->setObjectName("reportRAT_3");
+        reportRAT_3->setGeometry(QRect(0, 470, 431, 171));
+        reportRAT_3->setStyleSheet(QString::fromUtf8("border: none;"));
+        vaccineRecords_3 = new QWidget(reportRAT_3);
         vaccineRecords_3->setObjectName("vaccineRecords_3");
         vaccineRecords_3->setGeometry(QRect(50, 10, 321, 161));
         vaccineRecords_3->setAutoFillBackground(false);
@@ -692,28 +695,28 @@ public:
         myCovidRecordLabel_23->setGeometry(QRect(20, 50, 211, 24));
         myCovidRecordLabel_23->setStyleSheet(QString::fromUtf8("font: 700 16pt \"Fira Sans\";\n"
 "color: #002E6E;"));
-        userProfile1 = new QGroupBox(userAccount);
-        userProfile1->setObjectName("userProfile1");
-        userProfile1->setGeometry(QRect(0, 140, 431, 51));
-        userProfile1->setStyleSheet(QString::fromUtf8("border: none;"));
-        profileIcon1 = new QLabel(userProfile1);
-        profileIcon1->setObjectName("profileIcon1");
-        profileIcon1->setGeometry(QRect(50, 0, 49, 51));
-        name1 = new QLabel(userProfile1);
-        name1->setObjectName("name1");
-        name1->setGeometry(QRect(110, 10, 171, 21));
-        loginButton2_6 = new QPushButton(userProfile1);
-        loginButton2_6->setObjectName("loginButton2_6");
-        loginButton2_6->setGeometry(QRect(280, 15, 111, 29));
-        loginButton2_6->setFont(font);
-        loginButton2_6->setAutoFillBackground(false);
-        loginButton2_6->setStyleSheet(QString::fromUtf8("background-color: rgb(85, 163, 235);\n"
+        userProfile = new QGroupBox(userAccount);
+        userProfile->setObjectName("userProfile");
+        userProfile->setGeometry(QRect(0, 140, 431, 51));
+        userProfile->setStyleSheet(QString::fromUtf8("border: none;"));
+        profileIcon = new QLabel(userProfile);
+        profileIcon->setObjectName("profileIcon");
+        profileIcon->setGeometry(QRect(50, 0, 49, 51));
+        name = new QLabel(userProfile);
+        name->setObjectName("name");
+        name->setGeometry(QRect(110, 10, 171, 21));
+        logout2 = new QPushButton(userProfile);
+        logout2->setObjectName("logout2");
+        logout2->setGeometry(QRect(280, 15, 111, 29));
+        logout2->setFont(font);
+        logout2->setAutoFillBackground(false);
+        logout2->setStyleSheet(QString::fromUtf8("background-color: rgb(85, 163, 235);\n"
 "color: rgb(255, 255, 255);"));
-        reportRAT1 = new QGroupBox(userAccount);
-        reportRAT1->setObjectName("reportRAT1");
-        reportRAT1->setGeometry(QRect(0, 230, 431, 271));
-        reportRAT1->setStyleSheet(QString::fromUtf8("border: none;"));
-        vaccineRecords_31 = new QWidget(reportRAT1);
+        reportRAT = new QGroupBox(userAccount);
+        reportRAT->setObjectName("reportRAT");
+        reportRAT->setGeometry(QRect(0, 230, 431, 271));
+        reportRAT->setStyleSheet(QString::fromUtf8("border: none;"));
+        vaccineRecords_31 = new QWidget(reportRAT);
         vaccineRecords_31->setObjectName("vaccineRecords_31");
         vaccineRecords_31->setGeometry(QRect(50, 10, 321, 241));
         vaccineRecords_31->setAutoFillBackground(false);
@@ -724,22 +727,22 @@ public:
         name_271->setObjectName("name_271");
         name_271->setGeometry(QRect(20, 20, 161, 21));
         name_271->setStyleSheet(QString::fromUtf8("border: none;"));
-        name_281 = new QLabel(vaccineRecords_31);
-        name_281->setObjectName("name_281");
-        name_281->setGeometry(QRect(20, 50, 221, 71));
-        name_281->setStyleSheet(QString::fromUtf8("border: none;"));
-        name_281->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop);
-        name_281->setWordWrap(true);
+        userPersonalInfo = new QLabel(vaccineRecords_31);
+        userPersonalInfo->setObjectName("userPersonalInfo");
+        userPersonalInfo->setGeometry(QRect(20, 50, 221, 71));
+        userPersonalInfo->setStyleSheet(QString::fromUtf8("border: none;"));
+        userPersonalInfo->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop);
+        userPersonalInfo->setWordWrap(true);
         name_31 = new QLabel(vaccineRecords_31);
         name_31->setObjectName("name_31");
         name_31->setGeometry(QRect(20, 130, 161, 21));
         name_31->setStyleSheet(QString::fromUtf8("border: none;"));
-        name_32 = new QLabel(vaccineRecords_31);
-        name_32->setObjectName("name_32");
-        name_32->setGeometry(QRect(20, 160, 221, 71));
-        name_32->setStyleSheet(QString::fromUtf8("border: none;"));
-        name_32->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop);
-        name_32->setWordWrap(true);
+        vaccineRecord_2 = new QLabel(vaccineRecords_31);
+        vaccineRecord_2->setObjectName("vaccineRecord_2");
+        vaccineRecord_2->setGeometry(QRect(20, 160, 221, 71));
+        vaccineRecord_2->setStyleSheet(QString::fromUtf8("border: none;"));
+        vaccineRecord_2->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop);
+        vaccineRecord_2->setWordWrap(true);
         reportRAT_21 = new QGroupBox(userAccount);
         reportRAT_21->setObjectName("reportRAT_21");
         reportRAT_21->setGeometry(QRect(0, 520, 431, 301));
@@ -879,11 +882,11 @@ public:
         textLabel_2->setStyleSheet(QString::fromUtf8("font: 700 14pt \"Fira Sans\" rgb(85, 170, 255);\n"
 "color: rgb(0, 46, 110);\n"
 ""));
-        textEdit = new QTextEdit(reportPage);
-        textEdit->setObjectName("textEdit");
-        textEdit->setGeometry(QRect(30, 230, 371, 231));
-        textEdit->setFrameShape(QFrame::Box);
-        textEdit->setFrameShadow(QFrame::Plain);
+        issueTextBox = new QTextEdit(reportPage);
+        issueTextBox->setObjectName("issueTextBox");
+        issueTextBox->setGeometry(QRect(30, 230, 371, 231));
+        issueTextBox->setFrameShape(QFrame::Box);
+        issueTextBox->setFrameShadow(QFrame::Plain);
         textLabel_3 = new QLabel(reportPage);
         textLabel_3->setObjectName("textLabel_3");
         textLabel_3->setGeometry(QRect(30, 200, 151, 20));
@@ -893,13 +896,14 @@ public:
         label = new QLabel(reportPage);
         label->setObjectName("label");
         label->setGeometry(QRect(370, 190, 31, 31));
-        loginButton2_7 = new QPushButton(reportPage);
-        loginButton2_7->setObjectName("loginButton2_7");
-        loginButton2_7->setGeometry(QRect(150, 480, 111, 29));
-        loginButton2_7->setFont(font);
-        loginButton2_7->setAutoFillBackground(false);
-        loginButton2_7->setStyleSheet(QString::fromUtf8("background-color: rgb(85, 163, 235);\n"
-"color: rgb(255, 255, 255);"));
+        submitIssue = new QPushButton(reportPage);
+        submitIssue->setObjectName("submitIssue");
+        submitIssue->setGeometry(QRect(150, 480, 111, 29));
+        submitIssue->setFont(font);
+        submitIssue->setAutoFillBackground(false);
+        submitIssue->setStyleSheet(QString::fromUtf8("background-color: rgb(85, 163, 235);\n"
+"color: rgb(0, 46, 110);\n"
+""));
         stackedWidget->addWidget(reportPage);
         adminLoginPage = new QWidget();
         adminLoginPage->setObjectName("adminLoginPage");
@@ -1075,12 +1079,12 @@ public:
 "color: rgb(0, 46, 110);"));
         name_54->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop);
         name_54->setWordWrap(true);
-        saveButton = new QPushButton(vaccineRecords_9);
-        saveButton->setObjectName("saveButton");
-        saveButton->setGeometry(QRect(140, 270, 81, 21));
-        saveButton->setFont(font);
-        saveButton->setAutoFillBackground(false);
-        saveButton->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 46, 110);\n"
+        loginButton2_22 = new QPushButton(vaccineRecords_9);
+        loginButton2_22->setObjectName("loginButton2_22");
+        loginButton2_22->setGeometry(QRect(140, 270, 81, 21));
+        loginButton2_22->setFont(font);
+        loginButton2_22->setAutoFillBackground(false);
+        loginButton2_22->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 46, 110);\n"
 "color: rgb(255, 255, 255);"));
         topLogoLable_18 = new QLabel(adminAccount);
         topLogoLable_18->setObjectName("topLogoLable_18");
@@ -1103,7 +1107,7 @@ public:
 "border: 1px solid #002e6e;"));
         name_47 = new QLabel(vaccineRecords_10);
         name_47->setObjectName("name_47");
-        name_47->setGeometry(QRect(140, 10, 91, 21));
+        name_47->setGeometry(QRect(100, 10, 181, 21));
         name_47->setStyleSheet(QString::fromUtf8("border: none;"));
         name_48 = new QLabel(vaccineRecords_10);
         name_48->setObjectName("name_48");
@@ -1113,19 +1117,19 @@ public:
         name_48->setMidLineWidth(0);
         name_48->setAlignment(Qt::AlignHCenter|Qt::AlignTop);
         name_48->setWordWrap(true);
-        generateButton = new QPushButton(vaccineRecords_10);
-        generateButton->setObjectName("generateButton");
-        generateButton->setGeometry(QRect(210, 80, 111, 29));
-        generateButton->setFont(font);
-        generateButton->setAutoFillBackground(false);
-        generateButton->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 46, 110);\n"
+        loginButton2_19 = new QPushButton(vaccineRecords_10);
+        loginButton2_19->setObjectName("loginButton2_19");
+        loginButton2_19->setGeometry(QRect(210, 80, 111, 29));
+        loginButton2_19->setFont(font);
+        loginButton2_19->setAutoFillBackground(false);
+        loginButton2_19->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 46, 110);\n"
 "color: rgb(255, 255, 255);"));
-        uploadButton = new QPushButton(vaccineRecords_10);
-        uploadButton->setObjectName("uploadButton");
-        uploadButton->setGeometry(QRect(210, 140, 111, 29));
-        uploadButton->setFont(font);
-        uploadButton->setAutoFillBackground(false);
-        uploadButton->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 46, 110);\n"
+        loginButton2_20 = new QPushButton(vaccineRecords_10);
+        loginButton2_20->setObjectName("loginButton2_20");
+        loginButton2_20->setGeometry(QRect(210, 140, 111, 29));
+        loginButton2_20->setFont(font);
+        loginButton2_20->setAutoFillBackground(false);
+        loginButton2_20->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 46, 110);\n"
 "color: rgb(255, 255, 255);"));
         textEdit_3 = new QTextEdit(adminAccount);
         textEdit_3->setObjectName("textEdit_3");
@@ -1156,12 +1160,13 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 434, 26));
+        menubar->setGeometry(QRect(0, 0, 437, 22));
         MainWindow->setMenuBar(menubar);
 
         retranslateUi(MainWindow);
+        QObject::connect(showProfile, &QPushButton::clicked, MainWindow, qOverload<>(&QMainWindow::show));
 
-        stackedWidget->setCurrentIndex(8);
+        stackedWidget->setCurrentIndex(4);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -1189,7 +1194,7 @@ public:
         eyeIconLabel->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><img src=\":/IconsAndImages/eye.png\"/></p></body></html>", nullptr));
         showLabel->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; font-weight:400;\">Show</span></p></body></html>", nullptr));
         forgotPasswordLabel->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; font-weight:400; font-style:italic;\">Forgot Password?</span></p></body></html>", nullptr));
-        loginButton2->setText(QCoreApplication::translate("MainWindow", "Login", nullptr));
+        loginToAccount->setText(QCoreApplication::translate("MainWindow", "Login", nullptr));
         dontHaveAccountLabel->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:8pt; font-weight:400;\">Don't have a My Health Account?</span></p></body></html>", nullptr));
         signUpHereLable->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:8pt; font-weight:400; font-style:italic;\">Sign Up here</span></p></body></html>", nullptr));
         myCovidRecordLabel_3->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt;\">Log in to your account</span></p></body></html>", nullptr));
@@ -1219,21 +1224,21 @@ public:
         link_14->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; font-weight:400;\">Copyright</span></p></body></html>", nullptr));
         topLogoLable_22->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><img src=\":/IconsAndImages/MOHLOgo.svg\"/></p></body></html>", nullptr));
         myCovidRecordLabel_22->setText(QCoreApplication::translate("MainWindow", "My Covid Record", nullptr));
-        userProfile->setTitle(QString());
-        profileIcon->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><img src=\":/IconsAndImages/profilecircle.png\"/></p></body></html>", nullptr));
-        name->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#002e6e;\">Mary Rose Garcia</span></p></body></html>", nullptr));
-        name_2->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; color:#002e6e;\">View NHI and profile</span></p></body></html>", nullptr));
-        loginButton2_4->setText(QCoreApplication::translate("MainWindow", "Log Out", nullptr));
+        userProfile_2->setTitle(QString());
+        profileIcon_2->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><img src=\":/IconsAndImages/profilecircle.png\"/></p></body></html>", nullptr));
+        name_2->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#002e6e;\">Mary Rose Garcia</span></p></body></html>", nullptr));
+        logout->setText(QCoreApplication::translate("MainWindow", "Log Out", nullptr));
+        showProfile->setText(QCoreApplication::translate("MainWindow", "View NHI and profile", nullptr));
         records->setTitle(QString());
         name_9->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt; font-weight:700; color:#002e6e;\">COVID-19 Vaccinations</span></p></body></html>", nullptr));
         name_10->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; color:#002e6e;\">Showing your most recent vaccination</span></p></body></html>", nullptr));
         name_11->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#002e6e;\">Vaccine Record</span></p></body></html>", nullptr));
-        name_12->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; color:#002e6e;\">Booster 1:   18/03/2022</span></p></body></html>", nullptr));
+        vaccineRecord->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; color:#002e6e;\">Booster 1:   18/03/2022</span></p></body></html>", nullptr));
         name_13->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"right\"><span style=\" font-size:10pt; color:#556deb;\">View All</span></p></body></html>", nullptr));
-        name_14->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; color:#002e6e;\">Test 1: 23/04/2022</span></p></body></html>", nullptr));
+        testRecord->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; color:#002e6e;\">Test 1: 23/04/2022</span></p></body></html>", nullptr));
         name_15->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"right\"><span style=\" font-size:10pt; color:#556deb;\">View All</span></p></body></html>", nullptr));
         name_16->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#002e6e;\">COVID Test Result</span></p></body></html>", nullptr));
-        reportRAT->setTitle(QString());
+        reportRAT_3->setTitle(QString());
         name_27->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt; font-weight:700; color:#002e6e;\">Report a RAT result</span></p></body></html>", nullptr));
         name_28->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; color:#002e6e;\">Report a rapid antigen test result (RAT) for yourself or for others</span></p></body></html>", nullptr));
         loginButton2_8->setText(QCoreApplication::translate("MainWindow", "Report RAT result", nullptr));
@@ -1243,15 +1248,15 @@ public:
         loginButton2_9->setText(QCoreApplication::translate("MainWindow", "Request a pass or certificate", nullptr));
         topLogoLable_23->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><img src=\":/IconsAndImages/MOHLOgo.svg\"/></p></body></html>", nullptr));
         myCovidRecordLabel_23->setText(QCoreApplication::translate("MainWindow", "My Covid Record", nullptr));
-        userProfile1->setTitle(QString());
-        profileIcon1->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><img src=\":/IconsAndImages/profilecircle.png\"/></p></body></html>", nullptr));
-        name1->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#002e6e;\">Mary Rose Garcia</span></p></body></html>", nullptr));
-        loginButton2_6->setText(QCoreApplication::translate("MainWindow", "Log Out", nullptr));
-        reportRAT1->setTitle(QString());
+        userProfile->setTitle(QString());
+        profileIcon->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><img src=\":/IconsAndImages/profilecircle.png\"/></p></body></html>", nullptr));
+        name->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#002e6e;\">Mary Rose Garcia</span></p></body></html>", nullptr));
+        logout2->setText(QCoreApplication::translate("MainWindow", "Log Out", nullptr));
+        reportRAT->setTitle(QString());
         name_271->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt; font-weight:700; color:#002e6e;\">Personal Information</span></p></body></html>", nullptr));
-        name_281->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; color:#002e6e;\">Name: Mary Rose Garcia<br/>Date of Birth: October 2, 1988<br>NHI: ACB1234</span></p><p><br/></p></body></html>", nullptr));
+        userPersonalInfo->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; color:#002e6e;\">Name: Mary Rose Garcia<br/>Date of Birth: October 2, 1988<br>NHI: ACB1234</span></p><p><br/></p></body></html>", nullptr));
         name_31->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt; font-weight:700; color:#002e6e;\">Vaccine Record</span></p></body></html>", nullptr));
-        name_32->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; color:#002e6e;\">First Dose: 	13/05/2021<br/>Secord Dose:	 14/12/2022<br/>Booster 1: 	18/03/2022</span></p><p><br/></p></body></html>", nullptr));
+        vaccineRecord_2->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; color:#002e6e;\">First Dose: 	13/05/2021<br/>Secord Dose:	 14/12/2022<br/>Booster 1: 	18/03/2022</span></p><p><br/></p></body></html>", nullptr));
         reportRAT_21->setTitle(QString());
         name_291->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt; font-weight:700; color:#002e6e;\">Your QR Code</span></p></body></html>", nullptr));
         name_301->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><img src=\":/IconsAndImages/Rectangle.png\"/></p></body></html>", nullptr));
@@ -1277,7 +1282,7 @@ public:
         textLabel_2->setText(QCoreApplication::translate("MainWindow", "Report Issues", nullptr));
         textLabel_3->setText(QCoreApplication::translate("MainWindow", "Enter Details", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><img src=\":/IconsAndImages/attachsquare.png\"/></p></body></html>", nullptr));
-        loginButton2_7->setText(QCoreApplication::translate("MainWindow", "Submit", nullptr));
+        submitIssue->setText(QCoreApplication::translate("MainWindow", "Submit", nullptr));
         groupBox_3->setTitle(QString());
         emailAddLabel_4->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; font-weight:400;\">Email Address</span></p></body></html>", nullptr));
         passwordLabel_5->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; font-weight:400;\">Password</span></p></body></html>", nullptr));
@@ -1310,14 +1315,14 @@ public:
         name_52->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p>Edit</p></body></html>", nullptr));
         name_53->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p>Edit</p></body></html>", nullptr));
         name_54->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p>Edit/Add</p></body></html>", nullptr));
-        saveButton->setText(QCoreApplication::translate("MainWindow", "Save", nullptr));
+        loginButton2_22->setText(QCoreApplication::translate("MainWindow", "Save", nullptr));
         topLogoLable_18->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><img src=\":/IconsAndImages/MOHLOgo.svg\"/></p></body></html>", nullptr));
         profileIcon_4->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><img src=\":/IconsAndImages/profilecircle.png\"/></p></body></html>", nullptr));
         myCovidRecordLabel_20->setText(QCoreApplication::translate("MainWindow", "My Covid Record", nullptr));
-        name_47->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#002e6e;\">QR code</span></p></body></html>", nullptr));
+        name_47->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#002e6e;\">QR code generator</span></p></body></html>", nullptr));
         name_48->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p><img src=\":/IconsAndImages/Rectangle.png\"/></p></body></html>", nullptr));
-        generateButton->setText(QCoreApplication::translate("MainWindow", "Generate", nullptr));
-        uploadButton->setText(QCoreApplication::translate("MainWindow", "Upload", nullptr));
+        loginButton2_19->setText(QCoreApplication::translate("MainWindow", "Generate", nullptr));
+        loginButton2_20->setText(QCoreApplication::translate("MainWindow", "Save", nullptr));
         textEdit_3->setHtml(QCoreApplication::translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"

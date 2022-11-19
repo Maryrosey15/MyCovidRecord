@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d6cb2b99afb1e54901c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MyCovidRecord",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MyCovidRecord::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MyCovidRecord-Debug-e07a54361765776d0525.json",
+					"name" : "MyCovidRecord",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MyCovidRecord_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MyCovidRecord_autogen-Debug-b890321386d1b2e74a28.json",
+					"name" : "MyCovidRecord_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MyCovidRecord_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MyCovidRecord_autogen_timestamp_deps-Debug-9444e8c4e744a99836eb.json",
+					"name" : "MyCovidRecord_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Work/Yoobee/6 Integrated Studio II/MyCovidRecord/build-MyCovidRecord-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+		"source" : "E:/Work/Yoobee/6 Integrated Studio II/MyCovidRecord/MyCovidRecord"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
