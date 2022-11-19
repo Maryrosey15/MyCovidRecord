@@ -22,18 +22,30 @@ adminmanage::~adminmanage()
 void adminmanage::on_userinformation_view_clicked()
 {
 
+   ui->stackedWidget->setCurrentIndex(3);
 
-   ui->stackedWidget->setCurrentIndex(8);
+}
 
-
+void adminmanage::on_userdocuments_view_clicked()
+{
+       ui->stackedWidget->setCurrentIndex(2);
 }
 
 
 
 
 
-void adminmanage::on_userdocuments_view_clicked()
+
+
+
+void adminmanage::on_pushButton_5_clicked()
 {
-       ui->stackedWidget->setCurrentIndex(6);
+   ui->stackedWidget->setCurrentIndex(7);
+}
+
+
+void adminmanage::on_pushButton_6_clicked()
+{
+  ui->stackedWidget->setCurrentIndex(7);
 }
 
