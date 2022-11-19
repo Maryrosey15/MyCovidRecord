@@ -3,7 +3,7 @@
 #include "user.h"
 #include "./ui_mainwindow.h"
 #include <iostream>
-
+#include <QMessageBox>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -13,6 +13,18 @@ MainWindow::MainWindow(QWidget *parent)
 
     ui->stackedWidget->setCurrentIndex(0);
     User *user;
+    std::string tmpEmail;
+    std::string tmpPassword;
+
+    ui->lastNameTextEdit->hide();
+    ui->lastNameAddLabel->hide();
+    
+    ui->signUpButton_3->hide();
+
+    ui->showLabel_6->hide();
+    ui->showLabel_4->hide();
+    ui->eyeIconLabel_6->hide();
+    ui->eyeIconLabel_4->hide();
 //    connect(clickViewProfile)
 }
 
@@ -29,9 +41,28 @@ void MainWindow::on_loginButton_clicked()
 void MainWindow::on_showProfile_clicked()
 {
     ui->stackedWidget->setCurrentIndex(4);
-
-
 }
+
+void MainWindow::on_signUpButton_clicked()
+{
+    // change to sign in page
+    ui->stackedWidget->setCurrentIndex(5);
+}
+
+
+void MainWindow::on_adminButton_clicked()
+{
+    // change to admin login
+    ui->stackedWidget->setCurrentIndex(7);
+}
+
+
+void MainWindow::on_reportIssueButton_clicked()
+{
+    // change to report issue page
+    ui->stackedWidget->setCurrentIndex(6);
+}
+
 
 
 void MainWindow::on_submitIssue_clicked()
@@ -104,10 +135,50 @@ void MainWindow::on_loginToAccount_clicked()
         pushUserDetails(user);
     }
 
+}
 
+
+void MainWindow::on_signUpButton_2_clicked()
+{
+    tmpEmail = ui->emailAddTextEdit_6->toPlainText().toStdString();
+    tmpPassword = ui->passwordTextEdit_7->toPlainText().toStdString();
+    std::string confirmPassword = ui->passwordTextEdit_6->toPlainText().toStdString();
+
+    if (tmpPassword != confirmPassword) {
+        QMessageBox::warning(nullptr, "Error", "Passwords do not match");
+        return;
+    } else {
+
+        // change email label width to 131px
+        ui->emailAddTextEdit_6->setFixedWidth(131);
+
+        ui->emailAddLabel_5->setText(QString::fromStdString("<html><head/><body><p><span style=\" font-size:10pt; font-weight:400;\">First Name</span></p></body></html>"));
+        ui->passwordLabel_6->setText(QString::fromStdString("<html><head/><body><p><span style=\" font-size:10pt; font-weight:400;\">Date of birth</span></p></body></html>"));
+        ui->passwordLabel_4->setText(QString::fromStdString("<html><head/><body><p><span style=\" font-size:10pt; font-weight:400;\">NHI number</span></p></body></html>"));
+
+        ui->emailAddTextEdit_6->clear();
+        ui->passwordTextEdit_7->clear();
+        ui->passwordTextEdit_6->clear();
+
+        ui->lastNameTextEdit->show();
+        ui->lastNameAddLabel->show();
+
+        ui->signUpButton_2->hide();
+        ui->signUpButton_3->show();
+    }
+
+}
+
+
+void MainWindow::on_signUpButton_3_clicked()
+{
+    // handles second part of sign up page
+    User *user = new User();
     // createUser
-//    user->createUser("John", "Smith", "johnsmith@gmail.com", "password", "01/01/2000", "ABCD1234", false);
+    user->createUser(ui->emailAddTextEdit_6->toPlainText().toStdString(), ui->lastNameTextEdit->toPlainText().toStdString(), tmpEmail, tmpPassword, ui->passwordTextEdit_7->toPlainText().toStdString(), ui->passwordTextEdit_6->toPlainText().toStdString(), false);
 
-
+    ui->stackedWidget->setCurrentIndex(3);
+    pushUserDetails(user);
+    
 }
 

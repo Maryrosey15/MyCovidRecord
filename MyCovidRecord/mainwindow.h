@@ -28,8 +28,20 @@ private slots:
 
     void on_loginToAccount_clicked();
 
+    void on_signUpButton_clicked();
+
+    void on_adminButton_clicked();
+
+    void on_reportIssueButton_clicked();
+
+    void on_signUpButton_2_clicked();
+
+    void on_signUpButton_3_clicked();
+
 private:
     Ui::MainWindow *ui;
     void logout();
+    std::string tmpEmail;
+    std::string tmpPassword;
 };
 #endif // MAINWINDOW_H

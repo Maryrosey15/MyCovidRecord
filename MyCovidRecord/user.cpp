@@ -12,6 +12,7 @@ User::User()
 
 // method to create a new user
 void User::createUser(std::string firstName, std::string lastName, std::string email, std::string password, std::string dateOfBirth, std::string NHI, bool admin) {
+
     this->firstName = firstName;
     this->lastName = lastName;
     this->email = email;
@@ -26,8 +27,10 @@ void User::createUser(std::string firstName, std::string lastName, std::string e
     database *db = new database();
     db->databaseConnect();
     db->addUser(firstName, lastName, email, password, dateOfBirth, NHI, admin);
+    
+    this->isLoggedIn = true;
 
-
+    db->databaseDisconnect();
 }
 
 bool User::loginUser(std::string email, std::string password) {
@@ -56,9 +59,7 @@ bool User::loginUser(std::string email, std::string password) {
         return false;
     }
 
-
-    // get user details from database
-    // set user details to this object
+    db->databaseDisconnect();
     
 }
 
