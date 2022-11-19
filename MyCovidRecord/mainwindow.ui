@@ -27,7 +27,7 @@
      <string notr="true">background-color: rgb(85, 163, 235);</string>
     </property>
     <property name="currentIndex">
-     <number>3</number>
+     <number>4</number>
     </property>
     <widget class="QWidget" name="homepage">
      <property name="styleSheet">
@@ -1536,7 +1536,7 @@ border: 1px solid #002e6e;</string>
          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:700; color:#002e6e;&quot;&gt;Vaccine Record&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
-       <widget class="QLabel" name="name_32">
+       <widget class="QLabel" name="vaccineRecord_2">
         <property name="geometry">
          <rect>
           <x>20</x>
