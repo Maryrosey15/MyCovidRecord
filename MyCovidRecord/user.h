@@ -25,7 +25,7 @@ public:
     bool admin;
 
     void createUser(std::string firstName, std::string lastName, std::string email, std::string password, std::string dateOfBirth, std::string NHI, bool admin);
-    bool loginUser(std::string email, std::string password);
+    bool loginUser(std::string email, std::string password, bool admin);
 
     void addVaccine(std::string vaccineName, std::string date);
     void addTestResult(std::string date, bool result);

@@ -33,10 +33,14 @@ void User::createUser(std::string firstName, std::string lastName, std::string e
     db->databaseDisconnect();
 }
 
-bool User::loginUser(std::string email, std::string password) {
+bool User::loginUser(std::string email, std::string password, bool admin) {
     database *db = new database();
     db->databaseConnect();
-    userID = db->checkUser(email, password);
+    if (admin) {
+        userID = db->checkAdmin(email, password);
+    } else {
+        userID = db->checkUser(email, password);
+    }
 
     if (userID != -1) {
         this->isLoggedIn = true;

@@ -34,7 +34,7 @@ void database::databaseConnect() {
         return;
     }
 
-    // setup database with tables and example data
+    // if doesn't exist we setup database with tables and example data
     QSqlQuery query;
 
     db.setDatabaseName("userRecords.db");
@@ -115,6 +115,24 @@ int database::checkUser(std::string email, std::string password) {
         return -1;
     }
 }
+
+int database::checkAdmin(std::string email, std::string password) {
+    // returns adminId if admin exists else returns -1
+    QSqlQuery query;
+    query.prepare("SELECT * FROM user WHERE email = :email AND password = :password AND admin = 1");
+    query.bindValue(":email", QString::fromStdString(email));
+    query.bindValue(":password", QString::fromStdString(password));
+    query.exec();
+    if (query.next()) {
+        // admin exists
+        return query.value(0).toInt();
+    }
+    else {
+        // admin does not exist
+        return -1;
+    }
+}
+
 
 std::vector<std::string> database::getUserDetails(int userID) {
     QSqlQuery query;

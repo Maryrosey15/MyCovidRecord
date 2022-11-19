@@ -27,7 +27,7 @@
      <string notr="true">background-color: rgb(85, 163, 235);</string>
     </property>
     <property name="currentIndex">
-     <number>5</number>
+     <number>8</number>
     </property>
     <widget class="QWidget" name="homepage">
      <property name="styleSheet">
@@ -2224,7 +2224,7 @@ color: rgb(0, 46, 110);
       <property name="title">
        <string/>
       </property>
-      <widget class="QTextEdit" name="emailAddTextEdit_4">
+      <widget class="QTextEdit" name="adminEmailTextBox">
        <property name="geometry">
         <rect>
          <x>40</x>
@@ -2275,7 +2275,7 @@ color: rgb(85, 163, 235);</string>
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:400;&quot;&gt;Password&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
-      <widget class="QTextEdit" name="passwordTextEdit_5">
+      <widget class="QTextEdit" name="adminPasswordTextBox">
        <property name="geometry">
         <rect>
          <x>40</x>
@@ -2339,7 +2339,7 @@ color: rgb(85, 163, 235);</string>
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; font-weight:400; font-style:italic;&quot;&gt;Forgot Password? Contact Support&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="loginButton2_5">
+      <widget class="QPushButton" name="adminLoginButton">
        <property name="geometry">
         <rect>
          <x>130</x>
@@ -2920,7 +2920,7 @@ border: 1px solid #002e6e;</string>
          <x>30</x>
          <y>40</y>
          <width>161</width>
-         <height>141</height>
+         <height>151</height>
         </rect>
        </property>
        <property name="styleSheet">

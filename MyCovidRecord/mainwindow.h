@@ -38,6 +38,8 @@ private slots:
 
     void on_signUpButton_3_clicked();
 
+    void on_adminLoginButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     void logout();

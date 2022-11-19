@@ -11,7 +11,9 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
+    // *** initial page ***
     ui->stackedWidget->setCurrentIndex(0);
+
     User *user;
     std::string tmpEmail;
     std::string tmpPassword;
@@ -127,14 +129,32 @@ void MainWindow::on_loginToAccount_clicked()
     // create new user object
     User *user = new User();
     // check if user exists in database
-    int userID = user->loginUser(userName, password);
+    int userID = user->loginUser(userName, password, false);
 
-    if (userID != -1)
+    if (userID != 0)
     {
         ui->stackedWidget->setCurrentIndex(3);
         pushUserDetails(user);
     }
 
+}
+
+void MainWindow::on_adminLoginButton_clicked()
+{
+    std::string adminEmail = ui->adminEmailTextBox->toPlainText().toStdString();
+    std::string adminPassword = ui->adminPasswordTextBox->toPlainText().toStdString();
+
+    User *admin = new User();
+    int adminID = admin->loginUser(adminEmail, adminPassword, true);
+
+    if (adminID != 0) {
+        // if admin exists change to admin page
+        ui->stackedWidget->setCurrentIndex(8);
+
+        // setup admin things maybe using this or custom solution
+        pushUserDetails(admin);
+
+    }
 }
 
 
@@ -181,4 +201,5 @@ void MainWindow::on_signUpButton_3_clicked()
     pushUserDetails(user);
     
 }
+
 
