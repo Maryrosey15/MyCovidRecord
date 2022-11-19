@@ -521,7 +521,7 @@ color: rgb(0, 46, 110);</string>
      </property>
     </widget>
    </widget>
-   <widget class="QWidget" name="linkPage">
+   <widget class="QWidget" name="userdocuments_2">
     <property name="styleSheet">
      <string notr="true">background-color: rgb(221, 237, 251);</string>
     </property>
@@ -591,95 +591,6 @@ color: rgb(85, 163, 235);</string>
          </property>
          <property name="text">
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Vaccines&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="link_2">
-         <property name="styleSheet">
-          <string notr="true">font: 700 16pt &quot;Fira Sans&quot;;
-color: rgb(85, 163, 235);</string>
-         </property>
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:400;&quot;&gt;About boosters&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="link">
-         <property name="styleSheet">
-          <string notr="true">font: 700 16pt &quot;Fira Sans&quot;;
-color: rgb(85, 163, 235);</string>
-         </property>
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:400;&quot;&gt;Book a COVID-19 vaccine&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="link_3">
-         <property name="styleSheet">
-          <string notr="true">font: 700 16pt &quot;Fira Sans&quot;;
-color: rgb(85, 163, 235);</string>
-         </property>
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:400;&quot;&gt;Report a side effect&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </widget>
-     <widget class="QWidget" name="verticalLayoutWidget_2">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>130</y>
-        <width>293</width>
-        <height>110</height>
-       </rect>
-      </property>
-      <layout class="QVBoxLayout" name="verticalLayout_2">
-       <item>
-        <widget class="QLabel" name="Heading_3">
-         <property name="styleSheet">
-          <string notr="true">font: 700 16pt &quot;Fira Sans&quot;;
-color: rgb(85, 163, 235);</string>
-         </property>
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Testing and tracing&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="link_4">
-         <property name="styleSheet">
-          <string notr="true">font: 700 16pt &quot;Fira Sans&quot;;
-color: rgb(85, 163, 235);</string>
-         </property>
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:400;&quot;&gt;COVID-19 symptoms&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="link_5">
-         <property name="styleSheet">
-          <string notr="true">font: 700 16pt &quot;Fira Sans&quot;;
-color: rgb(85, 163, 235);</string>
-         </property>
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:400;&quot;&gt;Order free RAT kits&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="link_6">
-         <property name="styleSheet">
-          <string notr="true">font: 700 16pt &quot;Fira Sans&quot;;
-color: rgb(85, 163, 235);</string>
-         </property>
-         <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:400;&quot;&gt;How to tell people you have COVID-19&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
         </widget>
        </item>
