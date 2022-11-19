@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "user.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -14,17 +15,21 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    User *user;
 
 private slots:
     void on_loginButton_clicked();
+    void on_showProfile_clicked();
+    void on_submitIssue_clicked();
+    void pushUserDetails(User *user);
 
-    void on_saveButton_clicked();
+    void on_logout_clicked();
+    void on_logout2_clicked();
 
-    void on_uploadButton_clicked();
-
-    void on_generateButton_clicked();
+    void on_loginToAccount_clicked();
 
 private:
     Ui::MainWindow *ui;
+    void logout();
 };
 #endif // MAINWINDOW_H
