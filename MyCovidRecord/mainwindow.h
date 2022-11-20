@@ -34,6 +34,10 @@ private slots:
 
     void on_submitButton_clicked();
 
+    void on_signUpButton_clicked();
+
+    void on_adminButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     void logout();
