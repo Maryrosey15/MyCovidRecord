@@ -31,7 +31,16 @@ void MainWindow::on_showProfile_clicked()
 {
     ui->stackedWidget->setCurrentIndex(4);
 
+}
 
+void MainWindow::on_signUpButton_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(5);
+}
+
+void MainWindow::on_adminButton_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(7);
 }
 
 
@@ -81,6 +90,7 @@ void MainWindow::on_logout2_clicked()
     logout();
 }
 
+
 void MainWindow::logout() {
     // delete user object
     user->logoutUser();
@@ -129,4 +139,10 @@ void MainWindow::on_submitButton_clicked()
 {
     QMessageBox::about(this,"Message", "Report submitted!");
 }
+
+
+
+
+
+
 
