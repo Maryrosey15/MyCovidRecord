@@ -3,6 +3,7 @@
 #include "user.h"
 #include "./ui_mainwindow.h"
 #include <iostream>
+#include <QMessageBox>
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -109,5 +110,23 @@ void MainWindow::on_loginToAccount_clicked()
 //    user->createUser("John", "Smith", "johnsmith@gmail.com", "password", "01/01/2000", "ABCD1234", false);
 
 
+}
+
+
+void MainWindow::on_loginButton2_22_clicked()
+{
+    QMessageBox::about(this,"Message", "Changes saved");
+}
+
+
+void MainWindow::on_uploadButton_clicked()
+{
+    QMessageBox::about(this,"Message", "Uploaded succesfully!");
+}
+
+
+void MainWindow::on_submitButton_clicked()
+{
+    QMessageBox::about(this,"Message", "Report submitted!");
 }
 

@@ -28,6 +28,12 @@ private slots:
 
     void on_loginToAccount_clicked();
 
+    void on_loginButton2_22_clicked();
+
+    void on_uploadButton_clicked();
+
+    void on_submitButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     void logout();
