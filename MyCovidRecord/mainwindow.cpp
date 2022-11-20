@@ -69,11 +69,18 @@ void MainWindow::on_reportIssueButton_clicked()
 
 void MainWindow::on_submitIssue_clicked()
 {
-    QString issueText = ui->issueTextBox->toPlainText();
-    std::cout << issueText.toStdString();
+    std::string issueText = ui->issueTextBox->toPlainText().toStdString();
 
-    // store issue somewhere
+    // store issue in database
+    database *db = new database();
+    db->databaseConnect();
+
+    db->addIssueReport(issueText);
+
+    QMessageBox::information(this, "Issue Submitted", "Your issue has been submitted. Thank you for your feedback!");
+    ui->stackedWidget->setCurrentIndex(0);
 }
+
 
 void MainWindow::pushUserDetails(User *user) {
     // Name: Mary Rose Garcia

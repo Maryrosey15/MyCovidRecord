@@ -2,6 +2,7 @@
 #define USER_H
 #include <iostream>
 #include <map>
+#include "database.h"
 
 class User
 {
@@ -17,6 +18,7 @@ public:
     std::string email;
     std::string dateOfBirth;
     std::string NHI;
+    std::string status;
     int userID;
 
     std::map<std::string, std::string> vaccineRecord;
@@ -33,6 +35,7 @@ public:
     ~User();
     void logoutUser();
 
+    database *db;
 private:
     std::string password;
 

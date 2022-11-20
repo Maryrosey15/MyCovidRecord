@@ -1,40 +1,38 @@
 #include "user.h"
 //#include "mainwindow.h"
-#include "database.h"
 #include <iostream>
 #include <QMessageBox>
 
 User::User()
 {
     isLoggedIn = false;
-    
+    db = new database();
 }
 
 // method to create a new user
 void User::createUser(std::string firstName, std::string lastName, std::string email, std::string password, std::string dateOfBirth, std::string NHI, bool admin) {
 
-    this->firstName = firstName;
-    this->lastName = lastName;
-    this->email = email;
-    this->password = password;
-    this->dateOfBirth = dateOfBirth;
-    this->NHI = NHI;
-    this->admin = admin;
+//    this->firstName = firstName;
+//    this->lastName = lastName;
+//    this->email = email;
+//    this->password = password;
+//    this->dateOfBirth = dateOfBirth;
+//    this->NHI = NHI;
+//    this->admin = admin;
 
-    this->isLoggedIn = true;
-    
     // store user details in database
-    database *db = new database();
+    
     db->databaseConnect();
     db->addUser(firstName, lastName, email, password, dateOfBirth, NHI, admin);
     
     this->isLoggedIn = true;
-
     db->databaseDisconnect();
+
+    loginUser(email, password, admin);
+
 }
 
 bool User::loginUser(std::string email, std::string password, bool admin) {
-    database *db = new database();
     db->databaseConnect();
     if (admin) {
         userID = db->checkAdmin(email, password);
@@ -48,13 +46,13 @@ bool User::loginUser(std::string email, std::string password, bool admin) {
         std::vector<std::string> userDetails = db->getUserDetails(userID);
         this->firstName = userDetails[1];
         this->lastName = userDetails[2];
-        this->dateOfBirth = userDetails[4];
-        this->NHI = userDetails[5];
-        this->admin = userDetails[6] == "1" ? true : false;
+        this->dateOfBirth = userDetails[5];
+        this->NHI = userDetails[6];
+        this->admin = userDetails[7] == "1" ? true : false;
+        this->status = userDetails[8];
 
         this->vaccineRecord = db->getVaccineRecord(userID);
         this->testResults = db->getTestRecord(userID);
-
 
         return true;
     } else {
