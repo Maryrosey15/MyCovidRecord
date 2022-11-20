@@ -2181,7 +2181,7 @@ color: rgb(0, 46, 110);
        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/IconsAndImages/attachsquare.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="submitIssue">
+     <widget class="QPushButton" name="submitButton">
       <property name="geometry">
        <rect>
         <x>150</x>
@@ -2942,7 +2942,7 @@ border: 1px solid #002e6e;</string>
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QPushButton" name="loginButton2_19">
+      <widget class="QPushButton" name="generateButton">
        <property name="geometry">
         <rect>
          <x>210</x>
@@ -2967,7 +2967,7 @@ color: rgb(255, 255, 255);</string>
         <string>Generate</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="loginButton2_20">
+      <widget class="QPushButton" name="uploadButton">
        <property name="geometry">
         <rect>
          <x>210</x>
@@ -2989,7 +2989,7 @@ color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
-        <string>Save</string>
+        <string>Upload</string>
        </property>
       </widget>
      </widget>
@@ -3107,7 +3107,7 @@ color: rgb(255, 255, 255);</string>
      <x>0</x>
      <y>0</y>
      <width>437</width>
-     <height>22</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>

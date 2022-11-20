@@ -40,6 +40,10 @@ private slots:
 
     void on_adminLoginButton_clicked();
 
+    void on_loginButton2_22_clicked();
+
+    void on_uploadButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     void logout();

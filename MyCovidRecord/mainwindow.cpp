@@ -58,13 +58,18 @@ void MainWindow::on_adminButton_clicked()
     ui->stackedWidget->setCurrentIndex(7);
 }
 
+}
+
+void MainWindow::on_signUpButton_clicked()
+{
+     ui->stackedWidget->setCurrentIndex(5);
+}
 
 void MainWindow::on_reportIssueButton_clicked()
 {
     // change to report issue page
     ui->stackedWidget->setCurrentIndex(6);
 }
-
 
 
 void MainWindow::on_submitIssue_clicked()
@@ -119,6 +124,7 @@ void MainWindow::on_logout2_clicked()
 {
     logout();
 }
+
 
 void MainWindow::logout() {
     // delete user object
@@ -210,3 +216,13 @@ void MainWindow::on_signUpButton_3_clicked()
 }
 
 
+void MainWindow::on_loginButton2_22_clicked()
+{
+    QMessageBox::about(this,"Message", "Changes saved");
+}
+
+
+void MainWindow::on_uploadButton_clicked()
+{
+    QMessageBox::about(this,"Message", "Uploaded succesfully!");
+}
