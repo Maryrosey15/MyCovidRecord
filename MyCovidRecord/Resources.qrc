@@ -15,5 +15,8 @@
         <file>IconsAndImages/NZGovernmentLogo2.png</file>
         <file>IconsAndImages/profilecircle.png</file>
         <file>IconsAndImages/Rectangle.png</file>
+        <file>IconsAndImages/User_View.png</file>
+        <file>IconsAndImages/user.png</file>
+        <file>IconsAndImages/User_Files.png</file>
     </qresource>
 </RCC>

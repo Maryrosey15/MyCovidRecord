@@ -14,16 +14,21 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
-find_package(Qt6 REQUIRED COMPONENTS Sql)
-
 set(PROJECT_SOURCES
         main.cpp
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
         Resources.qrc
-        user.h user.cpp
-        database.h database.cpp
+	adminmanage.h
+	adminmanage.ui
+	adminmanage.cpp
+userdocuments.ui
+userdocuments.h
+userdocuments.cpp
+userinformation.ui
+userinformation.h
+userinformation.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -50,7 +55,6 @@ else()
 endif()
 
 target_link_libraries(MyCovidRecord PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
-target_link_libraries(MyCovidRecord PRIVATE Qt6::Sql)
 
 set_target_properties(MyCovidRecord PROPERTIES
     MACOSX_BUNDLE_GUI_IDENTIFIER my.example.com

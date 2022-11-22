@@ -2,7 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "user.h"
+#include "adminmanage.h"
+#include "userinformation.h"
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -15,39 +17,16 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-    User *user;
 
 private slots:
-    void on_loginButton_clicked();
-    void on_showProfile_clicked();
-    void on_submitIssue_clicked();
-    void pushUserDetails(User *user);
 
-    void on_logout_clicked();
-    void on_logout2_clicked();
+    void on_LoginButton_login_clicked();
 
-    void on_loginToAccount_clicked();
-
-    void on_signUpButton_clicked();
-
-    void on_adminButton_clicked();
-
-    void on_reportIssueButton_clicked();
-
-    void on_signUpButton_2_clicked();
-
-    void on_signUpButton_3_clicked();
-
-    void on_adminLoginButton_clicked();
-
-    void on_loginButton2_22_clicked();
-
-    void on_uploadButton_clicked();
+    void on_checkBox_stateChanged(int arg1);
 
 private:
     Ui::MainWindow *ui;
-    void logout();
-    std::string tmpEmail;
-    std::string tmpPassword;
+    adminmanage *adminManage;
+    userinformation *userInformation;
 };
 #endif // MAINWINDOW_H
